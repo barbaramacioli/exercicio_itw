@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: black;
+  overflow: hidden; /* Para lidar com floats dentro do nav */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li.sobre {
+  float: right;
+  background-color: #01a96f;
+}
+
+nav ul li.sobre a {
+  color: white;
+}

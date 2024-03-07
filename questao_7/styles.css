@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  background-size: 100% auto;
+}
+
+img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #1170a0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #1170a0;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+  position: relative;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1170a0;
+  top: 12px;
+  left: 0;
+  width: 150px;
+  padding: 10px;
+}
+
+.navbar li:hover .dropdown-content {
+  display: block;
+}
+
+.navbar .dropdown-content > a {
+  display: block;
+}
+
+.container {
+  width: 96.5%;
+  margin: 0 auto;
+  height: 370px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.heading-container {
+  margin-bottom: 20px;
+}
+
+.principal {
+  color: #1170a0;
+}
+
+.separador {
+  width: 30%;
+  height: 5px;
+  background-color: #1170a0;
+  margin: 10px 0;
+}
+
+.button {
+  display: inline-block;
+  background-color: #1170a0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.website-link {
+  display: block;
+  margin-top: 10px;
+  color: #1170a0;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.image-container img {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: -3px;
+  margin-right: 5px;
+}
+
+.content-bar {
+  text-align: center;
+}
+
+.content-bar h2 {
+  text-align: center;
+  color: #1170a0;
+}
+

@@ -1,0 +1,19 @@
+/* 1. Palavra-chave */
+.elemento {
+  color: orange;
+}
+
+/* 2. Código hexadecimal */
+.elemento {
+  color: #f97a33;
+}
+
+/* 3. RGB */
+.elemento {
+  color: rgb(249, 122, 51);
+}
+
+/* 4. RGBA */
+.elemento {
+  color: rgba(249, 122, 51, 1);
+}

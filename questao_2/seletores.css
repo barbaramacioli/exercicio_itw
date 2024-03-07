@@ -1,0 +1,24 @@
+/* 1. Seletor de classe */
+.example {
+  color: blue;
+}
+
+/* 2. Seletor de ID */
+#example {
+  color: red;
+}
+
+/* 3. Seletor de elemento ou seletor de tag */
+p {
+  font-size: 18px;
+}
+
+/* 4. Seletor filho ou descendencia */
+div > span {
+  font-weight: bold;
+}
+
+/* 5. Seletor de atributo */
+a[title] {
+  color: green;
+}
